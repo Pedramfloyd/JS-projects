@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-color: black;
+     background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+       min-height: 100vh;
+       width: 100%;
+       background-position: center;
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.clockbox{
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 160px;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 70px rgb(141, 22, 22);
+}
+
+.time{
+
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+.date{
+
+    font-size: 20px;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    .time {
+        font-size: 50px;
+    }
+}
